@@ -1,0 +1,39 @@
+img {
+    width: 300px; 
+    height: auto;
+    padding: 8px;
+    }
+.fact{
+    font-style: italic;
+    }
+span {
+    font: bold 12pt serif;
+    }
+li {
+    list-style: none;
+    }
+ul {
+    padding: 0;
+    font: 12pt serif;
+    }
+.outer {
+    border: solid black 1px;
+    width: 316px;
+    margin: auto;
+    float: left;
+    padding: 10px;
+    box-shadow: 5px 5px 10px lightslategray;
+    background-color: rgb(50, 83, 180);
+    }
+.inner {
+    border: solid black 1px;
+    padding: 10px;
+    }
+h3 {
+    font: small-caps 25pt Impact;
+    }  
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
